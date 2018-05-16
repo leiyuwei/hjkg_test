@@ -1,0 +1,804 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-leg-1",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        450,
+        2,
+        101,
+        152
+      ],
+      "offset": [
+        2,
+        4
+      ],
+      "originalSize": [
+        105,
+        160
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-leg-2",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        604,
+        2,
+        103,
+        152
+      ],
+      "offset": [
+        1,
+        4
+      ],
+      "originalSize": [
+        105,
+        160
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Preson-Face",
+    "_duration": 1,
+    "sample": 3,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "a15MqU2FRBQofTHa2C8cwd"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "d2/2hgcDZHq4PZ1Xkmn24q"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "7ePGxowu5H2KXqorMGkrMX"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71VhFCTINJM6/Ky3oX9nBT",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        7,
+        15,
+        9
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-leg-0",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        150,
+        804,
+        101,
+        154
+      ],
+      "offset": [
+        2,
+        3
+      ],
+      "originalSize": [
+        105,
+        160
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "menu-start-gold",
+      "texture": "c66jWS6ttP5LrkqOr4g3/1",
+      "rect": [
+        19,
+        14,
+        285,
+        260
+      ],
+      "offset": [
+        8.5,
+        -4.5
+      ],
+      "originalSize": [
+        306,
+        279
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "Index",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 8
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          },
+          "_fitWidth": true,
+          "_fitHeight": false
+        },
+        {
+          "__type__": "46088f+PFdImIKRq5WDOvy+",
+          "node": {
+            "__id__": 2
+          },
+          "Lighting": {
+            "__id__": 5
+          },
+          "BGM": {
+            "__uuid__": "52J/YaePZLJZRYzoFkFVRf"
+          }
+        },
+        {
+          "__type__": "cc.AudioSource",
+          "node": {
+            "__id__": 2
+          },
+          "_clip": {
+            "__uuid__": "52J/YaePZLJZRYzoFkFVRf"
+          },
+          "_volume": 0.5,
+          "_loop": true,
+          "preload": true
+        }
+      ],
+      "_id": "d37VUIApFEF7iaPkI9wtU8",
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 480,
+        "y": 320
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background-0",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_spriteFrame": {
+            "__uuid__": "b0x/2UqC9GDozF5fs5uh1s"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 361
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": 150
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background-1",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_spriteFrame": {
+            "__uuid__": "45ASHFbQhKLonIqZ8vqILT"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Lighting",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 5
+          },
+          "_spriteFrame": {
+            "__uuid__": "eejmK3TyhF6LeGp9kwBpy5"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 206,
+        "height": 270
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 193,
+        "y": 42
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "BtnBackground",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 7
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 6
+          },
+          "_spriteFrame": {
+            "__uuid__": "3c+i+61VNAx7VFDFMEysOS"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 285,
+        "height": 260
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 255,
+        "y": -191
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Start",
+      "_parent": {
+        "__id__": 6
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 7
+          },
+          "_spriteFrame": {
+            "__uuid__": "e91WEmmaNIO7NHxyc4B7xl"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 7
+          },
+          "transition": 2,
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 7
+              },
+              "component": "cc.AudioSource",
+              "handler": "play"
+            }
+          ],
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$normalSprite": {
+            "__uuid__": "e91WEmmaNIO7NHxyc4B7xl"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "78hFzCkDhLooRdJPsxb8ya"
+          },
+          "pressedSprite": {
+            "__uuid__": "78hFzCkDhLooRdJPsxb8ya"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "78hFzCkDhLooRdJPsxb8ya"
+          },
+          "hoverSprite": {
+            "__uuid__": "78hFzCkDhLooRdJPsxb8ya"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 7
+          }
+        },
+        {
+          "__type__": "cc.AudioSource",
+          "node": {
+            "__id__": 7
+          },
+          "_clip": {
+            "__uuid__": "94cJ5pNu9HW5fm58usdXYe"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_scaleX": 1.4,
+      "_scaleY": 1.4,
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 12,
+        "y": 59
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Preson",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 10
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 8
+          },
+          "_spriteFrame": {
+            "__uuid__": "e95qNjCklK1Ju777jf0yqo"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 230,
+        "height": 543
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": -290,
+        "y": -44
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Leg",
+      "_parent": {
+        "__id__": 8
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 9
+          },
+          "_spriteFrame": {
+            "__uuid__": "343NsIwYpIAoAgq+5H3Pb8"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 9
+          },
+          "_defaultClip": {
+            "__uuid__": "59qpQCz8lHBo2f1Y8DdM1j"
+          },
+          "_clips": [
+            {
+              "__uuid__": "59qpQCz8lHBo2f1Y8DdM1j"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 101,
+        "height": 154
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": -41,
+        "y": -165
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Face",
+      "_parent": {
+        "__id__": 8
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 10
+          },
+          "_spriteFrame": {
+            "__uuid__": "a15MqU2FRBQofTHa2C8cwd"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 10
+          },
+          "_defaultClip": {
+            "__uuid__": "268BZQOcBMT4gpIj0eX6EN"
+          },
+          "_clips": [
+            {
+              "__uuid__": "268BZQOcBMT4gpIj0eX6EN"
+            }
+          ],
+          "playOnLoad": true
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 10
+          },
+          "_alignFlags": 9,
+          "_left": 86,
+          "_top": 108
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 85,
+        "height": 106
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 13.5,
+        "y": 110.5
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "menu-background",
+      "texture": "bcOde5GitCPqjInQ3oiQtP",
+      "rect": [
+        0,
+        2,
+        960,
+        571
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        960,
+        573
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Preson-Leg",
+    "_duration": 1,
+    "sample": 3,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "343NsIwYpIAoAgq+5H3Pb8"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "12UCPMM0FNcbsPI67OHepf"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "26NsnQ371B/7pbQV2rZdR2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "start-1",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        2,
+        804,
+        200,
+        72
+      ],
+      "offset": [
+        6,
+        13
+      ],
+      "originalSize": [
+        300,
+        200
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-face-whistle-2",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        595,
+        528,
+        85,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        85,
+        106
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-face-whistle-0",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        546,
+        767,
+        85,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        85,
+        106
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "menu-background-sky",
+      "texture": "6dCVKg+2xLvpaD7uHNuhxg",
+      "rect": [
+        0,
+        0,
+        960,
+        361
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        960,
+        361
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "miner-face-whistle-1",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        610,
+        388,
+        85,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        85,
+        106
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "start-0",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        76,
+        804,
+        200,
+        72
+      ],
+      "offset": [
+        6,
+        13
+      ],
+      "originalSize": [
+        300,
+        200
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "menu-miner",
+      "texture": "445lhvpO1Cz7xQoII3jlBw",
+      "rect": [
+        0,
+        0,
+        230,
+        543
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        230,
+        543
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "cave-2",
+      "texture": "a6qfVxeclOz6l2J5SQmaBF",
+      "rect": [
+        2,
+        2,
+        206,
+        270
+      ],
+      "offset": [
+        -7,
+        1
+      ],
+      "originalSize": [
+        220,
+        276
+      ]
+    }
+  }
+]
